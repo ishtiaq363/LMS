@@ -1,0 +1,47 @@
+﻿@model LMSWeb.Models.BatchFeeViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add New Fee</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                             <input asp-for="batchList" value="abc" hidden> 
+                            <label class="form-label" asp-for="BatchId">Select Batch</label>
+                            <select asp-for="BatchId" class="form-control" asp-items="ViewBag.BatchList">
+                                <option value="">--- Select Batch ---</option>
+                            </select>
+                            <span asp-validation-for="BatchId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="FeeAmount"></label>
+                            <input asp-for="FeeAmount" class="form-control">
+                            <span asp-validation-for="FeeAmount" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EffectiveDate"></label>
+                            <input type="date" asp-for="EffectiveDate" class="form-control">
+                            <span asp-validation-for="EffectiveDate" class=text-danger></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="BatchFee" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,69 @@
+﻿@model LMSWeb.Models.PaymentViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add New Fee</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="StudentId" hidden value="@ViewBag.CurrentUserId" class="form-control">
+                            <input asp-for="BatchId" hidden value="@ViewBag.BatchInfo.BatchId" class="form-control">
+                            <input asp-for="Status" hidden value="Review" class="form-control">
+
+                            <label class="form-label" >Batch</label>
+                            <input type="text" value="@ViewBag.FeeInfo.Batch.Name" readonly class="form-control">
+                          
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="PaymentAmount"></label>
+                            <input asp-for="PaymentAmount" value="@ViewBag.FeeInfo.FeeAmount" readonly class="form-control">
+                            <span asp-validation-for="PaymentAmount" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="PaymentDate"></label>
+                            <input type="date" asp-for="PaymentDate" class="form-control">
+                            <span asp-validation-for="PaymentDate" class=text-danger></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="mb-3 text-center">
+                                <img src="~/resources/voucher.png" id="preview" class="img-fluid rounded-circle" alt="Student Image" style="max-width: 200px; max-height:230px; border: solid 1px; green">
+
+                            </div>
+                            <div style="text-align:center">
+                                <input type="file" id="uploadImage" name="file" class="form-control-file" onchange="previewImage(event)" style="display: none;">
+                                <button type="button" class="btn btn-secondary" onclick="document.getElementById('uploadImage').click();">Upload Image( .jpg .png only) </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="Payment" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var preview = document.getElementById('preview');
+            preview.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\myjs.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\myjs.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LMS.DataAccess\LMS.DataAccess.csproj" />
+    <ProjectReference Include="..\LMS.Models\LMS.Models.csproj" />
+    <ProjectReference Include="..\LMS.Utility\LMS.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\StudentSide\Data\" />
+    <Folder Include="Areas\StudentSide\js\" />
+    <Folder Include="Areas\StudentSide\Models\" />
+    <Folder Include="Views\pages\" />
+    <Folder Include="wwwroot\images\NewFolder\" />
+    <Folder Include="wwwroot\Exams\" />
+    <Folder Include="wwwroot\Submissions\" />
+    <Folder Include="wwwroot\papers\" />
+    <Folder Include="wwwroot\resources\receipts\" />
+    <Folder Include="wwwroot\resources\subjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\data.js" />
+    <None Include="wwwroot\js\myjs.js" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,165 @@
+﻿@model System.Collections.Generic.List<LMSWeb.Models.ExamViewModel>
+@using System.Globalization
+@{
+    var request = ViewBag.Requests;
+}
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive">
+                <table id="basic-table" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr>
+                            <th>Exam Type</th>
+                            <th>Download Paper</th>
+                            <th>Date</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Total Marks</th>
+                            <th>Passing Marks</th>
+                            <th>Submit 
+                                Paper</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var exam in request)
+                        {
+                            DateTime currentDate = DateTime.Now;
+                            string ad = exam.AssessmentDate.ToString();
+                            DateTime assessmentDate = DateTime.Parse(ad);
+                            string st = exam.StartTime.ToString();
+                            DateTime startTime = DateTime.Parse(st);
+
+                            string et = exam.EndTime.ToString();
+                            DateTime endTime = DateTime.Parse(et);
+
+                            // Display AssessmentSource and UploadPaper only if current date is according to AssessmentDate
+                            // and just before StartTime
+                           
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <h6>@exam.ExamType</h6>
+                                        </div>
+                                    </td>
+                                @if (currentDate.Date == assessmentDate.Date && currentDate.TimeOfDay > startTime.TimeOfDay && currentDate.TimeOfDay < endTime.TimeOfDay)
+                                {
+                                    <td>
+                                        <a href="@exam.AssessmentSource" target="_blank">
+                                            <img src="/resources/notes.png" width="30" height="30" alt="Type 1 Image" />
+                                        </a>
+                                        
+                                        </td>
+                                }
+                                else{
+                                    
+                                        <td>Wait..'</td>
+                                                                      
+                                }
+                                    <td>@exam.AssessmentDate</td>
+                                     
+                                    <td>@exam.StartTime</td>
+                                    <td>@exam.EndTime</td>
+                                    <td>@exam.TotalMarks</td>
+                                    <td>@exam.Passingmarks</td>
+                                @if (currentDate.Date == assessmentDate.Date && currentDate.TimeOfDay > startTime.TimeOfDay && currentDate.TimeOfDay < endTime.TimeOfDay)
+                                {
+                                    <td>
+                                        <input type="file" name="file" class="file-input" /><hr/><hr style="border: solid gray 1px"/>
+                                      
+                                        <input type="hidden" name="examId" value="@exam.Id" /> 
+                                        <input type="hidden" name="studentId" value="@exam.StudentId" /> 
+                                        <input type="hidden" name="batchId" value="@exam.BatchId" /> 
+                                        <input type="hidden" name="examType" value="@exam.ExamType" /> 
+                                       
+                                        <button class="btn btn-primary submit-paper">Submit</button>
+
+                                    </td>
+                                }
+                                else
+                                {
+
+                                    <td>wait..</td>
+
+                                }
+                               
+                                @if (exam.Status == "Request")
+                                    {
+                                        <td style="color:brown">@exam.Status</td>
+                                    }
+                                    else if (exam.Status == "Accepted")
+                                    {
+                                        <td style="color:green;">@exam.Status</td>
+                                    }
+                                    else if (exam.Status == "Pending")
+                                    {
+                                        <td style="color:red;">@exam.Status</td>
+                                    }
+                                else if (exam.Status == "Submitted")
+                                {
+                                    <td style="background:lightgreen;">@exam.Status</td>
+                                }
+                                </tr>
+                            
+                        }
+
+                        @if(request.Count == 0)
+                        {
+                            <tr><td> No Exam Due </td></tr>
+                        }
+                    </tbody>
+                </table>
+               
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var submitButtons = document.querySelectorAll(".submit-paper");
+            submitButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    var fileInput = button.parentElement.querySelector(".file-input");
+                    var file = fileInput.files[0];
+                    var examId = button.parentElement.querySelector("[name='examId']").value;
+                    var studentId = button.parentElement.querySelector("[name='studentId']").value;
+                    var batchId = button.parentElement.querySelector("[name='batchId']").value;
+                    var examType = button.parentElement.querySelector("[name='examType']").value;
+                    if (file) {
+                        var formData = new FormData();
+                        formData.append("file", file);
+                        formData.append("examId", examId);
+                        formData.append("studentId", studentId);
+                        formData.append("batchId", batchId);
+                        formData.append("examType", examType);
+                        fetch("/student/Exam/SubmitPaper", {
+                            method: "POST",
+                            body: formData
+                        })
+                            .then(response => {
+                                if (response.ok) {
+                                    // File submitted successfully
+                                    alert("File submitted successfully.");
+                                    window.location.reload();
+                                } else {
+                                    // Error handling
+                                    alert("Error submitting file.");
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Error:', error);
+                                alert("Error submitting file.");
+                            });
+                    } else {
+                        console.log("No file selected.");
+                    }
+                });
+            });
+        });
+    </script>
+}

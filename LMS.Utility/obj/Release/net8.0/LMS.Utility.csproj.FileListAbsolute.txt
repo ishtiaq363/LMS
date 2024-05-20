@@ -1,0 +1,12 @@
+D:\aspnetcore\LMS\LMS.Utility\bin\Release\net8.0\LMS.Utility.deps.json
+D:\aspnetcore\LMS\LMS.Utility\bin\Release\net8.0\LMS.Utility.dll
+D:\aspnetcore\LMS\LMS.Utility\bin\Release\net8.0\LMS.Utility.pdb
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.csproj.AssemblyReference.cache
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.AssemblyInfoInputs.cache
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.AssemblyInfo.cs
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.csproj.CoreCompileInputs.cache
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.dll
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\refint\LMS.Utility.dll
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\LMS.Utility.pdb
+D:\aspnetcore\LMS\LMS.Utility\obj\Release\net8.0\ref\LMS.Utility.dll

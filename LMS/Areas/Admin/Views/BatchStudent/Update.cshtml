@@ -1,0 +1,63 @@
+﻿@model LMSWeb.Models.BatchStudentViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add Student To Batch</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All"></div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="BatchId">Select Batch</label>
+                            <select asp-for="BatchId" class="form-control" asp-items="ViewBag.BatchList"></select>
+                            <span asp-validation-for="BatchId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="StudentId">Select Student</label>
+                            <select asp-for="StudentId" class="form-control" asp-items="ViewBag.StudentList"></select>
+                            <span asp-validation-for="StudentId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EnrollmentNo"></label>
+                            <input asp-for="EnrollmentNo" class="form-control">
+                            <span asp-validation-for="EnrollmentNo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EnrollmentDate"></label>
+                            <input type="date" asp-for="EnrollmentDate" class="form-control">
+                            <span asp-validation-for="EnrollmentDate" class=text-danger></span>
+                        </div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="StudentId">Select Status</label>
+                            <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions"></select>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Remarks"></label>
+                            <input asp-for="Remarks" class="form-control">
+                            <span asp-validation-for="Remarks" class=text-danger></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Update</button>
+                        <a asp-controller="BatchStudent" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

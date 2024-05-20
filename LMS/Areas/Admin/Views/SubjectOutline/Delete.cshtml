@@ -1,0 +1,110 @@
+﻿@model LMSWeb.Models.SubjectOutlineViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add New Subject Outline</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                               
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="SubjectId">Select Subject</label>
+                                    <select asp-for="SubjectId" class="form-control" asp-items="ViewBag.SubjectList">
+                                        <option value="">--- Select Subject ---</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Overview"></label>
+                                    <input asp-for="Overview" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Importance"></label>
+                                    <input asp-for="Importance" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Objectives"></label>
+                                    <input asp-for="Objectives" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="FundamentalPrinciples"></label>
+                                    <input asp-for="FundamentalPrinciples" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="CoreConcepts"></label>
+                                    <input asp-for="CoreConcepts" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="RealWorldApplications"></label>
+                                    <input asp-for="RealWorldApplications" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Implications"></label>
+                                    <input asp-for="Implications" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="StudyPath"></label>
+                                    <input asp-for="StudyPath" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="KeyResearchers"></label>
+                                    <input asp-for="KeyResearchers" class="form-control" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="MajorStudies"></label>
+                                    <input asp-for="MajorStudies" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="ResearchMethodologies"></label>
+                                    <input asp-for="ResearchMethodologies" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Textbooks"></label>
+                                    <input asp-for="Textbooks" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="OnlineResources"></label>
+                                    <input asp-for="OnlineResources" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="AdditionalReferences"></label>
+                                    <input asp-for="AdditionalReferences" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="GradingRubrics"></label>
+                                    <input asp-for="GradingRubrics" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Summary"></label>
+                                    <input asp-for="Summary" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="FutureStudy"></label>
+                                    <input asp-for="FutureStudy" class="form-control" readonly />
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Delete</button>
+                        <a asp-controller="SubjectOutline" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

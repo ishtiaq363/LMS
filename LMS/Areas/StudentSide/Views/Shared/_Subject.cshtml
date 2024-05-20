@@ -1,0 +1,41 @@
+﻿@model LMSWeb.Models.StudentDetailViewModel;
+@{
+    //  var User = ViewBag.User;
+    var Subjects = ViewBag.Subject;
+    // as  LMSWeb.Models.StudentViewModel;
+}
+<ul class="sub-nav collapse" id="sidebar-special" data-bs-parent="#sidebar-menu">
+    @if(ViewBag.StudentStatus !=null)
+    {
+        @if (ViewBag.StudentStatus.Status == "Suspend")
+        {
+            <li style="color:orangered" title="@ViewBag.StudentStatus.Remarks">Status Blocked</li>
+        } else {
+            @if (Subjects != null)
+            {
+                @foreach (var subject in Subjects)
+                {
+                    <li class="nav-item" id="@subject.Id
+                    " name="@subject.Name
+                    " onclick="loadAllSubjectData(this)">
+                        <a class="nav-link" id="@subject.Id" name="@subject.Name">
+                            <i class="icon">
+                                <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
+                                    <g>
+                                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
+                                    </g>
+                                </svg>
+                            </i>
+                            <i class="sidenav-mini-icon"> C </i>
+                            <span class="item-name">@subject.Name</span>
+                        </a>
+                    </li>
+                }
+
+            }
+
+        }
+    }
+
+
+</ul>

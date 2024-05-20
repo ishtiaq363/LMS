@@ -1,0 +1,58 @@
+﻿@model System.Collections.Generic.List<LMSWeb.Models.ExamViewModel>
+@using System.Globalization
+@{
+    var submissions = ViewBag.Submission;
+}
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <h1>All Assessment Submission</h1>
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive">
+                <table id="basic-table" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Batch</th>                          
+                            <th>Submitted Paper</th>
+                            <th>Obtained Marks</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var submission in submissions)
+                        {
+                           <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <h6>@submission.FullName</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    @submission.BatchName
+                                </td>
+                                
+                                    <td>
+                                        <a href="@submission.SubmissionUrl" target="_blank">
+                                            <img src="/resources/notes.png" width="30" height="30" alt="Type 1 Image" />
+                                        </a>
+
+                                    </td>
+
+
+                                <td>@submission.Marks</td>
+                                                               
+
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+

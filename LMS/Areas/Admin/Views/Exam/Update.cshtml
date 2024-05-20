@@ -1,0 +1,135 @@
+﻿@model LMSWeb.Models.ExamViewModel
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">update Assignment and Exam</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" onsubmit="showLoadingIndicator()">
+                        <div class="row">
+                            <!-- Left Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label asp-for="BatchId" class="form-label"></label>
+                                    <select asp-for="BatchId" class="form-control" onchange="getSubjects(this)" readonly asp-items="ViewBag.BatchList"  ></select>
+                                    <span asp-validation-for="BatchId" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="StudentId" class="form-label"></label>
+                                    <select asp-for="StudentId" readonly class="form-control" asp-items="ViewBag.StudentList" id="StudentId" ></select>
+                                    <span asp-validation-for="StudentId" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="ExamType" class="form-label"></label>
+                                    <input asp-for="ExamType" readonly  class="form-control"  />
+                                    <span asp-validation-for="ExamType" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <!-- Right Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3 text-center">
+
+                                    <img src="~/resources/notes.png" id="preview" class="img-fluid rounded-circle" alt="Student Image" style="max-width: 200px; max-height:230px;">
+                                </div>
+                                <div style="text-align:center">
+                                    <input type="file" id="uploadImage" name="file" class="form-control-file"  style="display: none;">
+                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('uploadImage').click();">Upload Image( .jpg .png only) </button>
+                                    <span asp-validation-for="AssessmentSource" class="text-danger"></span>
+                                    <div id="loadingIndicator" style="display: none;">
+                                      
+                                        Loading...
+                                    </div>
+                                </div>
+                               
+                                   
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="AssessmentDate" class="form-label"></label>
+                                            <input type="date"  asp-for="AssessmentDate" class="form-control" />
+                                            <span asp-validation-for="AssessmentDate" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="StartTime" class="form-label"></label>
+                                            <input type="time"  asp-for="StartTime" class="form-control" />
+                                            <span asp-validation-for="StartTime" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="EndTime" class="form-label"></label>
+                                    <input type="time"  asp-for="EndTime" class="form-control" />
+                                    <span asp-validation-for="EndTime" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="TotalMarks" class="form-label"></label>
+                                            <input asp-for="TotalMarks"  class="form-control" />
+                                            <span asp-validation-for="TotalMarks" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Passingmarks" class="form-label"></label>
+                                            <input asp-for="Passingmarks"  class="form-control" />
+                                            <span asp-validation-for="Passingmarks" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="Status" class="form-label"></label>
+                                    <select asp-for="Status" readonly class="form-control" asp-items="ViewBag.AvailableOptions"></select>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+
+                            @*  <input type="hidden" asp-for="ResourceUrl" class="form-control" /> *@
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Update</button>
+                        <a asp-controller="Exam" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+@section scripts {
+    <script>
+        function showLoadingIndicator() {
+            document.getElementById('loadingIndicator').style.display = 'block';
+        }
+    </script>
+}

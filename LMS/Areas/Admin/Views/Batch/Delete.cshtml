@@ -1,0 +1,69 @@
+﻿@model LMSWeb.Models.BatchViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Batch Record</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="Id" hidden>
+                            <input asp-for="CourseTitle" value="abc" hidden>
+                            <label class="form-label" asp-for="CourseId">Select Course</label>
+                            <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseList"></select>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Name"></label>
+                            <input asp-for="Name" class="form-control">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="StartDate"></label>
+                            <input type="date" asp-for="StartDate" class="form-control">
+                            <span asp-validation-for="StartDate" class=text-danger></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EndDate"></label>
+                            <input type="date" asp-for="EndDate" class="form-control">
+                            <span asp-validation-for="EndDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Capacity"></label>
+                            <input asp-for="Capacity" class="form-control">
+                            <span asp-validation-for="Capacity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Status"></label>
+                            <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions"></select>
+
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Description"></label>
+                            <input asp-for="Description" class="form-control">
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Delete</button>
+                        <a asp-controller="Batch" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

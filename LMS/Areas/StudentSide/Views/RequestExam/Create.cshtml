@@ -1,0 +1,41 @@
+﻿@model LMSWeb.Models.ExamViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add New Batch</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <input type="hidden" asp-for="StudentId" value="@ViewBag.currentUser.Id" hidden>
+                            <input type="hidden" asp-for="BatchId" value="@ViewBag.Batch.BatchId" hidden>
+                            <label class="form-label" asp-for="ExamType">Select Exam Level</label>
+                            <select asp-for="ExamType" class="form-control">
+                                <option value="">--- Select Course ---</option>
+                                <option value="IG1">--- IG 1 ---</option>
+                                <option value="IG2">--- IG 2 ---</option>
+                            </select>
+                            <span asp-validation-for="ExamType" class="text-danger"></span>
+                        </div>
+                      
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="Batch" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

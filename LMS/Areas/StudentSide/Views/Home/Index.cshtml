@@ -1,0 +1,359 @@
+﻿@model LMSWeb.Models.StudentDetailViewModel;
+
+<div id="profile-profile" class="tab-pane fade" style="display:none;">
+    <div class="card">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h5 class="card-title">@ViewBag.currentUser.FullName</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <div class="profile-img-edit position-relative">
+                                    <img src="@ViewBag.currentUser.ImageURL" alt="profile-pic" class="theme-color-default-img profile-pic rounded avatar-100">
+                                    <div class="upload-icone bg-primary">
+                                        <svg class="upload-button icon-14" width="14" viewBox="0 0 24 24">
+                                            <path fill="#ffffff" d="M14.06,9L15,9.94L5.92,19H5V18.08L14.06,9M17.66,3C17.41,3 17.15,3.1 16.96,3.29L15.13,5.12L18.88,8.87L20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18.17,3.09 17.92,3 17.66,3M14.06,6.19L3,17.25V21H6.75L17.81,9.94L14.06,6.19Z" />
+                                        </svg>
+                                        <input class="file-upload" type="file" accept="image/*">
+                                    </div>
+                                </div>
+                                <div class="img-extension mt-3">
+                                    <div class="d-inline-block align-items-center">
+                                        <span>Only</span>
+                                        <a href="javascript:void();">.jpg</a>
+                                        <a href="javascript:void();">.png</a>
+                                        <a href="javascript:void();">.jpeg</a>
+                                        <span>allowed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Father Name:</label>
+                                <input type="text" class="form-control" value="@ViewBag.currentUser.FatherName" />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="furl">D.O.B:</label>
+                                <input type="text" class="form-control" value="@ViewBag.currentUser.DOB" id="furl" placeholder="Facebook Url">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="turl">Registration No:</label>
+                                <input type="text" class="form-control" value="@ViewBag.currentUser.RegistrationNo" id="turl" placeholder="Twitter Url">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="instaurl">E-mail:</label>
+                                <input type="text" class="form-control" value="@ViewBag.currentUser.Email" id="instaurl" placeholder="Instagram Url">
+                            </div>
+                            <div class="form-group mb-0">
+                                <label class="form-label" for="lurl">Address:</label>
+                                <input type="text" class="form-control" value="@ViewBag.currentUser.Address" id="lurl" placeholder="Linkedin Url">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-8">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Student Detail Information</h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="new-user-info">
+                            <form method="post" id="form1">
+                                <div class="row">
+                                      <input type="text" asp-for="Id" id="Id"  hidden >
+                                    <input type="text" asp-for="StudentId" id="StudentId"   hidden>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="Religon"></label>
+                                        <input type="text" asp-for="Religon" required id="Religon"  class="form-control" >
+                                        <span asp-validation-for="Nationality" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="PostalCode"></label>
+                                        <input type="text" asp-for="PostalCode" id="PostalCode" required class="form-control">
+                                        <span asp-validation-for="PostalCode" class="text-danger"></span>
+
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="Province"></label>
+                                        <input type="text" asp-for="Province" id="Province" required  class="form-control">
+                                        <span asp-validation-for="Province" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="Phone"></label>
+                                        <input type="text" asp-for="Phone" id="Phone" required class="form-control">
+                                        <span asp-validation-for="Phone" class="text-danger"></span>
+                                    </div>
+                                    
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="Country"></label>
+                                        <input type="text" asp-for="Country" id="Country" required class="form-control">
+                                        <span asp-validation-for="Country" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="Nationality"></label>
+                                        <input type="text" asp-for="Nationality" id="Nationality" required  class="form-control">
+                                        <span asp-validation-for="Nationality" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="GuardianName"></label>
+                                        <input type="text" asp-for="GuardianName" id="GuardianName" required class="form-control">
+                                        <span asp-validation-for="GuardianName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label class="form-label" asp-for="GuardianContactNo"></label>
+                                        <input type="text" asp-for="GuardianContactNo" id="GuardianContactNo" required class="form-control">
+                                        <span asp-validation-for="GuardianContactNo" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="EmergencyContactNo"></label>
+                                        <input type="text" asp-for="EmergencyContactNo" id="EmergencyContactNo" required class="form-control">
+                                        <span asp-validation-for="EmergencyContactNo" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="PreviousQualification"></label>
+                                        <input type="text" asp-for="PreviousQualification" id="PreviousQualification" required class="form-control">
+                                        <span asp-validation-for="PreviousQualification" id="" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="InstituteName"></label>
+                                        <input type="text" asp-for="InstituteName" id="InstituteName" required class="form-control">
+                                        <span asp-validation-for="InstituteName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="PassingYear"></label>
+                                        <input type="text" asp-for="PassingYear" id="PassingYear" required class="form-control">
+                                        <span asp-validation-for="PassingYear" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" asp-for="MarksAverage"></label>
+                                        <input type="text" asp-for="MarksAverage" id="MarksAverage" required class="form-control">
+                                        <span asp-validation-for="MarksAverage" class="text-danger"></span>
+                                    </div>
+                                    
+                                </div>
+                                @if (!ViewBag.IsDetailInformationSaved)
+                                {
+                                    <button type="submit" class="btn btn-primary">Save</button>
+                                }else
+
+                                {
+                                <button type="submit" class="btn btn-primary">Update</button>
+                                }
+                            </form>
+                                <hr>
+                           
+                                <form id="form2" method="post" runat="server" asp-area="StudentSide" asp-action="UpdatePassword" asp-controller="Home">
+
+                                <h5 class="mb-3">Change Password</h5>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label class="form-label" for="uname">User Name:</label>
+                                        <input type="text" asp-for="MyEmail" value="@ViewBag.currentUser.Email" class="form-control" readonly>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" for="pass">Password:</label>
+                                        <input type="password" asp-for="MyPassword" class="form-control" >
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" for="rpass">New Password:</label>
+                                        <input type="password" asp-for="MyRePassword" class="form-control" >
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Update Password</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+<div class="col-lg-12" >
+    <div class="profile-content tab-content">
+        <div id="profile-feed" class="tab-pane fade active show" >
+            <div class="card">
+                <div class="card-header d-flex align-items-center justify-content-between pb-4">
+                    <div class="header-title">
+                        <div class="d-flex flex-wrap">
+                            <div class="media-support-user-img me-3">
+                                <img class="rounded-pill img-fluid avatar-60 bg-soft-danger p-1 ps-2" src="../../assets/images/avatars/02.png" alt="">
+                            </div>
+                            <div class="media-support-info mt-2">
+                                <h5 class="mb-0" id="myname">Subject Name</h5>
+                                <p class="mb-0 text-primary">Resources</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="card-body p-0" id="resourceTable">
+                   
+                    <div class="table-responsive mt-4">
+                        <table id="resourceDataTable" class="table table-striped mb-0" role="grid">
+                            <thead>
+                                <tr>
+                                    <th>Resource Type</th>
+                                    <th>Resource</th>
+                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   <td>No Resources To show</td>
+                                   
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="profile-activity" class="tab-pane fade">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title" id="outline">Activity</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="iq-timeline0 m-0 d-flex align-items-center justify-content-between position-relative">
+                        <ul class="list-inline p-0 m-0" id="outlineUl">
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="profile-friends" class="tab-pane fade">
+            <div class="card">
+                <div class="card-header">
+                    <div class="header-title">
+                        <h4 id="assessmentsubjectname" class="card-title">Assessment</h4>
+                    </div>
+                </div
+                <div class="card-body">
+                    <div class="table-responsive mt-4">
+                        <table id="assessmentDataTable" class="table table-striped mb-0" role="grid">
+                            <thead>
+                                <tr>
+                                   
+                                    
+                                    <th>Source</th>
+                                    <th>Date</th>
+                                    <th>Start Time</th>
+                                    <th>End Time</th>
+                                    <th>Action</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded img-fluid avatar-40 me-3 bg-soft-primary"
+                                                 src="../../assets/images/shapes/01.png" alt="profile">
+                                            <h6>Soft UI XD Version</h6>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="iq-media-group iq-media-group-1">
+                                            <a href="#" class="iq-media-1">
+                                                <div class="icon iq-icon-box-3 rounded-pill">SP</div>
+                                            </a>
+                                            <a href="#" class="iq-media-1">
+                                                <div class="icon iq-icon-box-3 rounded-pill">PP</div>
+                                            </a>
+                                            <a href="#" class="iq-media-1">
+                                                <div class="icon iq-icon-box-3 rounded-pill">MM</div>
+                                            </a>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div >
+            
+            <div class="card">
+                <div class="card-header d-flex align-items-center justify-content-between pb-4">
+                    <div class="header-title">
+                        <div class="d-flex flex-wrap">
+                            <div class="media-support-user-img me-3">
+                                <img class="rounded-pill img-fluid avatar-60 p-1 bg-soft-info" src="~/images//newlogo.png" alt="">
+                            </div>
+                            <div class="media-support-info mt-2">
+                                <h5 class="mb-0">Welcome</h5>
+                                <p class="mb-0 text-primary">Lifeline Learning Institute</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-body p-0">
+                    <p class="p-3 mb-0">At Lifeline Learning Institute, we believe in empowering individuals with the tools they need to succeed. Through our comprehensive courses and dedicated instructors, we foster a culture of continuous growth and learning. With a focus on practical skills and real-world application, we aim to prepare our students for the challenges and opportunities of tomorrow. Join us on a journey of discovery and unlock your full potential at Lifeline Learning Institute.</p>
+                    <div class="comment-area p-3">
+                        <hr class="mt-0">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+    fetch("/student/Home/GetFormData")
+        .then(response => response.json()) // Parse the JSON response
+        .then(dataArray => {
+           
+            const data = dataArray[0];
+           
+            // Populate the form with the received data
+            document.getElementById("Id").value = data.id;
+            document.getElementById("StudentId").value = data.studentId;
+            document.getElementById("Religon").value = data.religon;
+            document.getElementById("PostalCode").value = data.postalCode; // Make sure property names match
+            document.getElementById("Province").value = data.province;
+            document.getElementById("Phone").value = data.phone;
+            document.getElementById("Country").value = data.country;
+            document.getElementById("Nationality").value = data.nationality;
+            document.getElementById("GuardianName").value = data.guardianName;
+            document.getElementById("EmergencyContactNo").value = data.emergencyContactNo;
+            document.getElementById("GuardianContactNo").value = data.guardianContactNo;
+            document.getElementById("PreviousQualification").value = data.previousQualification;
+            document.getElementById("InstituteName").value = data.instituteName;
+            document.getElementById("PassingYear").value = data.passingYear;
+            document.getElementById("MarksAverage").value = data.marksAverage;
+            // Populate other form fields similarly
+        })
+        .catch(error => console.error('Error:', error));
+});
+
+
+
+       
+
+    </script>
+
+
+       
+}

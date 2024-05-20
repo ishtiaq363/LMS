@@ -1,0 +1,117 @@
+﻿.text-primary, .logo-title {
+    color: #00a884 !important;
+}
+
+
+.card-header, .bg-secondary {
+    background-color: #80ffaa !important;
+    /*background-color: #003300 !important;*/
+}
+.bg-secondary {
+   
+    background-color: #003300 !important;
+}
+.card-body{
+    a{
+    color: #00a884 !important;
+}
+
+&:hover {
+    border-radius: 5px;
+    background-color: #003300 !important;
+    a,p{
+    color: #ffffff !important;
+}
+}
+
+}
+.bg-soft-primary {
+    background-color: #80ffaa !important;
+}
+
+.border-top {
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #ffffff !important;
+    border-bottom-color: #ffffff !important;
+    border: #ffffff !important;
+    border-top: 1px solid #ffffff !important;
+}
+
+.btn-primary {
+    background-color: #003300 !important;
+    border-color: #003300 !important;
+}
+
+.footer-logo{
+    color:#ffffff !important;
+}
+.footer-logo-icon {
+    color: #ffffff !important;
+}
+
+.swiper-button-next {
+    background-color: #003300 !important;
+}
+
+.swiper-button-prev {
+    background-color: #003300 !important;
+}
+
+.loader {
+    color: #00a884 !important;
+}
+.heading-on-surface{
+    color:#000000 !important;
+}
+.loginrow {
+    padding-top: 100px;
+   
+    height: 800px;
+    background-color: white !important;
+    .loginForm {
+                margin-top:100px
+               }
+.photo{
+       
+    display: flex;
+    justify-content: start;
+}
+
+}
+
+.btn-landing{
+    
+    height:80px;  
+}
+html {
+    --thumbBG: green !important;
+    scrollbar-color: green white !important;
+}
+}
+
+
+
+body {
+    
+    scrollbar-color: green white;
+}
+
+
+
+body {
+    scrollbar-color: red green !important;
+}
+
+.officials{
+    height:250px !important;
+}
+
+
+.contactcontainer {
+    display: flex;
+}
+
+.address, .email, .call {
+   height:100% !important;
+}

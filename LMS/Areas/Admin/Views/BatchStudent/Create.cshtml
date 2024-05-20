@@ -1,0 +1,110 @@
+﻿@model LMSWeb.Models.BatchStudentViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add Student To Batch</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger" ></div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="BatchId">Select Batch</label>
+                            <select asp-for="BatchId" class="form-control" id="BatchId" onchange="getData(this)" asp-items="ViewBag.BatchList">
+                                <option value="">--- Select Batch ---</option>
+                            </select>
+                            <span asp-validation-for="BatchId" class="text-danger"></span>
+
+                        </div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="StudentId">Select Student</label>
+                            <select asp-for="StudentId" id="StudentId" class="form-control" asp-items="ViewBag.StudentList">
+                                <option value="">--- Select Student ---</option>
+                            </select>
+                            <span asp-validation-for="StudentId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EnrollmentNo"></label>
+                            <input asp-for="EnrollmentNo" class="form-control">
+                            <span asp-validation-for="EnrollmentNo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="EnrollmentDate"></label>
+                            <input type="date" asp-for="EnrollmentDate" class="form-control">
+                            <span asp-validation-for="EnrollmentDate" class=text-danger></span>
+                        </div>
+                        <div class="form-group">
+                            @* <input asp-for="batchList" value="abc" hidden> *@
+                            <label class="form-label" asp-for="StudentId">Select Status</label>
+                            <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions">
+                                <option value="">--- Select Student ---</option>
+                            </select>
+                            <span class="text-danger" asp-validation-for="StudentId" ></span>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Remarks"></label>
+                            <input  asp-for="Remarks" class="form-control">
+                            <span asp-validation-for="Remarks" class=text-danger></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="BatchStudent" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+            <partial name="_ValidationScriptsPartial" />
+    }
+  
+}
+<script>
+       document.getElementById('EnrollmentDate').value = new Date().toISOString().split('T')[0];  
+</script>
+<script>
+
+    function getData(obj) {
+        var Id = obj.value;
+
+        // var batchId = $(this).val();
+        load();
+        $.ajax({
+            url: "/admin/BatchStudent/GetStudents",
+            type: "GET",
+            data: { Id: Id },
+            success: function (response) {
+                unload();
+                console.log(response)
+                $("#StudentId").empty();
+                $("#StudentId").append('<option value="">' + " --- Select Student Name --- " + '</option>');
+                $.each(response, function (index, item) {
+                    $("#StudentId").append('<option value="' + item.value + '">' + item.text + '</option>');
+                });
+
+                if (response == null) {
+                    $("#StudentId").empty();
+                    $("#StudentId").append('<option value="">' + " --- No Student For Assign To Batch --- " + '</option>');
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log("Error: " + errorThrown);
+
+                unload();
+            }
+        });
+    }
+
+
+</script>

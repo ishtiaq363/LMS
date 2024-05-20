@@ -1,0 +1,127 @@
+﻿@model System.Collections.Generic.List< LMSWeb.Models.PaymentViewModel>
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <div class="header-title tableheading">
+                <h4 class="">All Courses</h4>
+                <input type="date" style="width:400px" class="form-control float-right" />
+                <button class="btn btn-primary float-right">Print</button>
+
+              
+            </div>
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive">
+                <table id="basic-table" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr>
+                            <th>Batch</th>
+                            <th>Student</th>
+                            <th>DownLoad</th>                                                                                 
+                           <th>Staus</th>
+                            <th>Paid Fee</th>
+                            <th>Payment Date</th>
+                            <th>Update Status</th>
+                            <th>Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var payment in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div>
+                                        <h6>@payment.BatchName</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <h6>@payment.StudentName</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="@payment.ReceiptUrl" target="_blank">
+                                        <img src="/resources/voucher.png" width="30" height="30" alt="Type 1 Image" />
+                                    </a>
+                                </td>
+                                @if (payment.Status == "Review")
+                                {
+                                    <td style="color:brown">@payment.Status</td>
+                                }
+                                else if (payment.Status == "Paid")
+                                {
+                                    <td style="color:green;">@payment.Status</td>
+                                }
+                                else if (payment.Status == "UnPaid")
+                                {
+                                    <td style="color:red;">@payment.Status</td>
+                                }
+                                else if (payment.Status == "Partial Paid")
+                                {
+                                    <td style="color:darkviolet;">@payment.Status</td>
+                                }
+                                
+
+                                <td>
+                                    <div >
+                                        <h6>@payment.PaymentAmount</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    @payment.PaymentDate.ToShortDateString()
+                                </td>
+                               
+                               <td>
+                                    <select class="form-control" id="feeStatus-@payment.Id">
+                                        <option value="0">--- Payment Status ---</option>
+                                        <option value="Partial Paid">Partial Paid</option>
+                                        <option value="Paid">Paid</option>
+                                        <option value="UnPaid">UnPaid</option>
+                                    </select>
+                               </td>
+                               <td>
+                                    <button class="btn btn-primary" id="@payment.Id" onclick="updateFeeStatus(this)">Update Status</button>
+                               </td>
+
+
+
+                            </tr>
+                        }
+                        @if (Model.Count == 0)
+                        {
+                            <tr><td>No Data To Show</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+               
+        function updateFeeStatus(obj) {
+            let paymentId = obj.id;
+            var selectedStatus = $("#feeStatus-" + paymentId).val(); // Get selected status from dropdown
+            // Send an AJAX request to update the fee status
+            $.ajax({
+                url: '/Admin/Payment/UpdateStatus',
+                type: 'POST',
+                data: { paymentId: paymentId, status: selectedStatus },
+                success: function (response) {
+                    location.reload();
+                    // Handle success response
+                   // alert("Fee status updated successfully.");
+                    // You can add further logic here, such as displaying a success message or updating the UI.
+                },
+                error: function (xhr, status, error) {
+                    location.reload();
+                    // Handle error response
+                }
+            });
+        }
+    </script>
+    }
+

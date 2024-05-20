@@ -1,0 +1,63 @@
+﻿@* @model System.Collections.Generic.List< LMSWeb.Models.ExamViewModel> *@
+@{
+    var request = ViewBag.Requests;
+}
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <div class="header-title tableheading">
+                <h4 class="">All Exam Request</h4>
+
+                <a asp-controller="RequestExam" asp-action="Create" class="btn btn-primary float-right">Make an Exam Request</a>
+            </div>
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive">
+                <table id="basic-table" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr>
+                            <th>Exam Type</th>
+                            <th>Status</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var exam in request)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <h6>@exam.ExamType</h6>
+                                    </div>
+                                </td>
+                                
+                                @if (exam.Status == "Request")
+                                {
+                                    <td style="color:brown">@exam.Status</td>
+                                }
+                                else if (exam.Status == "Accepted")
+                                {
+                                    <td style="color:green;">@exam.Status</td>
+                                }
+                                else if (exam.Status == "Pending")
+                                {
+                                    <td style="color:red;">@exam.Status</td>
+                                }
+                                else if (exam.Status == "Submitted")
+                                {
+                                    <td style="background:lightgreen;">@exam.Status</td>
+                                }
+                               
+                               
+                            </tr>
+                        }
+                        @if (request.Count == 0)
+                        {
+                            <tr><td>No Exam Request To Show</td></tr>
+                        } 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

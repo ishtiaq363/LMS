@@ -1,0 +1,69 @@
+﻿@model LMSWeb.Models.CourseViewModel
+<div>
+    <form method="post">
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Add New Course</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                      <form>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Title"></label>
+                            <input asp-for="Title" class="form-control" >
+                            <span asp-validation-for="Title" class="text-danger" ></span>
+                        </div>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Description"></label>
+                            <input asp-for="Description" class="form-control" >
+                            <span asp-validation-for="Description" class=text-danger></span>
+                        </div>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Duration"></label>
+                            <input asp-for="Duration" class="form-control" >
+                            <span asp-validation-for="Duration" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Price"></label>
+                            <input asp-for="Price" class="form-control" >
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Prerequisites"></label>
+                            <input asp-for="Prerequisites" class="form-control">
+                            <span asp-validation-for="Prerequisites" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Level"></label>
+                                <select asp-for="Level" class="form-control" asp-items="ViewBag.AvailableLevels">
+                                    <option value="">--- Select Level ---</option>
+                                </select>
+                                <span asp-validation-for="Level" class="text-danger"></span>
+                        </div>
+                       
+                        <div class="form-group">
+                                <label class="form-label" asp-for="Status"></label>
+                                <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions">
+                                    <option value="">--- Select Current Status ---</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a asp-controller="Course" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+       
+    </div>
+    </form>
+</div>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

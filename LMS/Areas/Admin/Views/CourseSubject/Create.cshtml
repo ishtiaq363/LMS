@@ -1,0 +1,78 @@
+﻿@model LMSWeb.Models.CourseSubjectViewModel;
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Assign Subjects To Course</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <form method="post">
+                        <div asp-validation-summary="All"></div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="CourseId">Select Course</label>
+                            <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseList" onchange="getData(this)">
+                                <option value="">--- Select Course ---</option>
+                            </select>
+                            <span asp-validation-for="CourseId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" asp-for="SubjectId">Select Subject</label>
+                            <select asp-for="SubjectId" id="SubjectId" class="form-control" asp-items="ViewBag.SubjectList">
+                                <option value="">--- Select Subject ---</option>
+                            </select>
+                            <span asp-validation-for="SubjectId" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="Course" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+<script>
+
+    function getData(obj) {
+        var Id = obj.value;
+
+        // var batchId = $(this).val();
+        load();
+        $.ajax({
+            url: "/admin/CourseSubject/GetSubjects",
+            type: "GET",
+            data: { Id: Id },
+            success: function (response) {
+                unload();
+                console.log(response)
+                $("#SubjectId").empty();
+                $("#SubjectId").append('<option value="">' + " --- Select Subject Name --- " + '</option>');
+                $.each(response, function (index, item) {
+                    $("#SubjectId").append('<option value="' + item.value + '">' + item.text + '</option>');
+                });
+
+                if (response == null) {
+                    $("#SubjectId").empty();
+                    $("#SubjectId").append('<option value="">' + " --- No Subject For This Batch --- " + '</option>');
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log("Error: " + errorThrown);
+
+                unload();
+            }
+        });
+    }
+
+
+</script>

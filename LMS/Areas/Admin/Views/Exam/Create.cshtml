@@ -1,0 +1,165 @@
+﻿@model LMSWeb.Models.AssessmentScheduleViewModel
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Prepare Assignment and Exam</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="row">
+                            <!-- Left Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label asp-for="BatchId" class="form-label">*Batch Name</label>
+                                    <select asp-for="BatchId" class="form-control" onchange="getSubjects(this)" asp-items="ViewBag.BatchList">
+                                        <option value=""> --- Select Batch Name ---</option>
+                                    </select>
+                                    <span asp-validation-for="BatchId" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="SubjectId" class="form-label"></label>
+                                    <select asp-for="SubjectId" class="form-control" id="SubjectId" >
+                                        <option value=""> --- Select Subject Name ---</option>
+                                    </select>
+                                    <span asp-validation-for="SubjectId" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="AssessmentId" class="form-label"></label>
+                                    <select asp-for="AssessmentId" class="form-control" asp-items="ViewBag.AssessmentList">
+                                        <option value=""> --- Select Assessment Type ---</option>
+                                    </select>
+                                    <span asp-validation-for="AssessmentId" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <!-- Right Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3 text-center">
+
+                                    <img src="~/resources/default.jpg" id="preview" class="img-fluid rounded-circle" alt="Student Image" style="max-width: 200px; max-height:230px; border: solid 1px; green">
+                                </div>
+                                <div style="text-align:center">
+                                    <input type="file" id="uploadImage" name="file" asp-for="AssessmentSource" class="form-control-file"  style="display: none;">
+                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('uploadImage').click();">Upload Paper</button>
+                                    <br />
+                                    <span asp-validation-for="AssessmentSource" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="AssessmentDate" class="form-label"></label>
+                                            <input type="date" asp-for="AssessmentDate" class="form-control" />
+                                            <span asp-validation-for="AssessmentDate" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="StartTime" class="form-label"></label>
+                                            <input type="time" asp-for="StartTime" class="form-control" />
+                                            <span asp-validation-for="StartTime" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="EndTime" class="form-label"></label>
+                                    <input type="time" asp-for="EndTime" class="form-control" />
+                                    <span asp-validation-for="EndTime" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="TotalMarks" class="form-label"></label>
+                                            <input asp-for="TotalMarks" class="form-control" />
+                                            <span asp-validation-for="TotalMarks" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Passingmarks" class="form-label"></label>
+                                            <input asp-for="Passingmarks" class="form-control" />
+                                            <span asp-validation-for="Passingmarks" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="Status" class="form-label"></label>
+                                    <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions"></select>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+
+                            @*  <input type="hidden" asp-for="ResourceUrl" class="form-control" /> *@
+                           
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="AssessmentSchedule" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<script>
+    
+   function getSubjects(obj){
+       var Id = obj.value;
+       
+       // var batchId = $(this).val();
+       load();
+        $.ajax({
+            url: "/admin/AssessmentSchedule/GetSubjects",
+            type: "GET",
+            data: { Id: Id },
+            success: function (response) {
+                unload();
+                console.log(response)
+                $("#SubjectId").empty(); 
+                $("#SubjectId").append('<option value="">' + " --- Select Subject Name --- " + '</option>');
+                $.each(response, function (index, item) {
+                    $("#SubjectId").append('<option value="' + item.value + '">' + item.text + '</option>');
+                });
+               
+                if(response==null){
+                    $("#SubjectId").empty();
+                    $("#SubjectId").append('<option value="">' + " --- No Subject For This Batch --- " + '</option>');
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log("Error: " + errorThrown);
+               
+                unload();
+            }
+        });
+    }
+
+
+</script>

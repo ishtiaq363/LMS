@@ -1,0 +1,46 @@
+﻿@{
+    var items = ViewBag.Notifications; 
+}
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <div class="header-title tableheading">
+                <h4 class="">Notifications</h4>
+
+                
+            </div>
+        </div>
+        <div class="p-0 card-body">
+
+            @foreach (var notification in items){
+                <div class="card">
+                    <div class="card-header">
+                        <div class="header-title">
+                            <h4 class="card-title">@notification.Title</h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="twit-feed">
+                            
+                            <div class="media-support-body">
+                                <p>@notification.Content</p>
+                               
+                                <div class="twit-date">@notification.DateCreated</div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        
+                    </div>
+                </div>
+            }
+           @if(items.Count ==0){
+               <p>Still No notification</p>
+           }
+
+
+           
+        </div>
+    </div>
+</div>
+
+

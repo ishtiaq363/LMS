@@ -1,0 +1,4125 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LMSWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LMSWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\3218aafb-fd9d-4925-9cea-b6756752ca96.docx",
+      "PackagePath": "staticwebassets\\Exams\\3218aafb-fd9d-4925-9cea-b6756752ca96.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\672c5553-8af9-4645-8006-1bc280d79b8d.docx",
+      "PackagePath": "staticwebassets\\Exams\\672c5553-8af9-4645-8006-1bc280d79b8d.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\7022c826-9e00-4baf-98f7-2dacb8203b6f.zip",
+      "PackagePath": "staticwebassets\\Exams\\7022c826-9e00-4baf-98f7-2dacb8203b6f.zip"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\78aa5bbf-1692-4a19-9732-5a3b1afc64c7.pdf",
+      "PackagePath": "staticwebassets\\Exams\\78aa5bbf-1692-4a19-9732-5a3b1afc64c7.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\c51cd81e-b078-4f88-ad11-b40ecd024bbb.pdf",
+      "PackagePath": "staticwebassets\\Exams\\c51cd81e-b078-4f88-ad11-b40ecd024bbb.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\ca209377-155a-4483-b6ac-81e0cbdd8be0.docx",
+      "PackagePath": "staticwebassets\\Exams\\ca209377-155a-4483-b6ac-81e0cbdd8be0.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\18d5f013-0ccf-41d6-a414-92c10aacf312.docx",
+      "PackagePath": "staticwebassets\\Submissions\\18d5f013-0ccf-41d6-a414-92c10aacf312.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\1cf8b851-c2ae-4c54-9482-60ffe4fc6684.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\1cf8b851-c2ae-4c54-9482-60ffe4fc6684.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\64b4312c-384b-4ff9-9b79-9c3533751d3b.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\64b4312c-384b-4ff9-9b79-9c3533751d3b.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\8040e094-27c7-4045-a878-49e30f295d6b.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\8040e094-27c7-4045-a878-49e30f295d6b.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\9146fc42-1097-4511-adca-be4e213df144.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\9146fc42-1097-4511-adca-be4e213df144.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\a9f3bf60-fdd6-4b4b-bf02-b68a17625a23.docx",
+      "PackagePath": "staticwebassets\\Submissions\\a9f3bf60-fdd6-4b4b-bf02-b68a17625a23.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\abe519c3-c978-4293-86ee-498b1be469f6.docx",
+      "PackagePath": "staticwebassets\\Submissions\\abe519c3-c978-4293-86ee-498b1be469f6.docx"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\adea8786-e474-4afc-98f5-f59a0ea77903.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\adea8786-e474-4afc-98f5-f59a0ea77903.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\c44bc350-af78-4f26-a050-556e8ad4149b.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\c44bc350-af78-4f26-a050-556e8ad4149b.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\dddcaaaf-2952-4178-8ff9-4aceb5cc00f4.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\dddcaaaf-2952-4178-8ff9-4aceb5cc00f4.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\e4d13cf4-8b59-4c26-b49c-00ab825b0c07.jpg",
+      "PackagePath": "staticwebassets\\Submissions\\e4d13cf4-8b59-4c26-b49c-00ab825b0c07.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\css\\landing-pages.css",
+      "PackagePath": "staticwebassets\\asset\\css\\landing-pages.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\css\\landing-pages.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\landing-pages.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\css\\maps\\landing-pages.min.css.map",
+      "PackagePath": "staticwebassets\\asset\\css\\maps\\landing-pages.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\01.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\03.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\04.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\05.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\06.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\07.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\08.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\08.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\09.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\09.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\blog\\10.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\blog\\10.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\01.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\03.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\04.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\05.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\06.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\07.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\08.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\08.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\09.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\09.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\10.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\10.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\11.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\11.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\aboutus.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\aboutus.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\appstore.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\appstore.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\banner-top.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\banner-top.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\dwn-1.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\dwn-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\dwn-2.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\dwn-2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\one.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\one.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\playstore.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\playstore.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\team-3.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\team-3.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\team-4.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\team-4.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\team1.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\team1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\team2.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\team2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-1\\three.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-1\\three.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\01.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\03.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\04.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\audience.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\audience.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\banner-contact.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\banner-contact.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\banner-right.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\shape.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\shape.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-allora.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-allora.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-ephoria.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-ephoria.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-geritcht.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-geritcht.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-qreate.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-qreate.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-slaint.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-slaint.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\theme-sound.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\theme-sound.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\user-1.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\user-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\user-2.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\user-2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-2\\user-3.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-2\\user-3.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\01.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\03.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\04.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\audience.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\audience.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\banner-right.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\business.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\business.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\business1.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\business1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-3\\fullbanner.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-3\\fullbanner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\01.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\03.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\04.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\05.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\06.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\07.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\Image-1.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\Image-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\banner-left.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\banner-left.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\banner-right.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\contact.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\contact.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\service.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\service.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-4\\slider-banner.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-4\\slider-banner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-5\\02.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-5\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-5\\about-5.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-5\\about-5.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\home-5\\top-banner.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\home-5\\top-banner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\images\\top-header.webp",
+      "PackagePath": "staticwebassets\\asset\\images\\top-header.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\js\\app-landing.js",
+      "PackagePath": "staticwebassets\\asset\\js\\app-landing.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\core\\libs.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\core\\libs.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\custom.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\customizer.css",
+      "PackagePath": "staticwebassets\\assets\\css\\customizer.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\customizer.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\customizer.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\dark.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dark.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\dark.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dark.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\hope-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\hope-ui.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\hope-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\hope-ui.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\maps\\custom.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\maps\\custom.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\maps\\customizer.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\maps\\customizer.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\maps\\dark.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\maps\\dark.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\maps\\hope-ui.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\maps\\hope-ui.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\maps\\rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\maps\\rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rtl.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\css\\rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rtl.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag-06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag-06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\Flag\\flag001.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Flag\\flag001.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\auth\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\avtar_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avtar_1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\avtar_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avtar_2.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\avtar_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avtar_3.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\avtar_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avtar_4.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\avatars\\avtar_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avtar_5.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\08.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\09.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\09.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\10.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\11.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\12.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\13.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\14.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\15.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\16.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\17.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\18.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\19.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\19.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\20.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\20.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\21.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\21.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\22.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\22.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\23.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\23.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\expand-window.json",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\expand-window.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\fb.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\fb.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\gm.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\gm.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\im.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\im.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\li.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\li.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\open-letter.json",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\open-letter.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\brands\\pdf.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\pdf.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header2.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header3.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header4.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-header5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-header5.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\dashboard\\top-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard\\top-image.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\down-aerrow.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\down-aerrow.gif"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\error\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\error\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\error\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\error\\404.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\404.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\error\\500.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\500.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\07.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\icons\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\08.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loader.gif"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\loader.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\loader.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\pages\\01-page.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pages\\01-page.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\pages\\02-page.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pages\\02-page.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\pages\\img-success.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pages\\img-success.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\07.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\08.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\09.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\10.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\11.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\12.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\dark\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\dark\\13.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\07.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\08.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\09.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\10.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\11.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\12.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\settings\\light\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\settings\\light\\13.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\01.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\02.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\03.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\04.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\05.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\shapes\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\06.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy-day-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy-day-1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy-day-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy-day-2.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy-day-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy-day-3.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy-night-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy-night-1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy-night-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy-night-2.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\cloudy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\cloudy.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\day.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\day.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\night.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\night.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-2.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-3.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-4.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-5.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-6.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\rainy-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\rainy-7.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\snowy-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\snowy-1.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\snowy-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\snowy-4.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\snowy-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\snowy-6.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\thunder.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\thunder.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\images\\vectormap\\weather.png",
+      "PackagePath": "staticwebassets\\assets\\images\\vectormap\\weather.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\charts\\dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts\\dashboard.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\charts\\vectore-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts\\vectore-chart.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\charts\\widgetcharts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts\\widgetcharts.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\core\\external.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\external.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\core\\libs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\libs.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\hope-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hope-ui.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\calender.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\calender.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\circle-progress.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\circle-progress.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\countdown.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\flatpickr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\form-wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\form-wizard.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\fslightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\fslightbox.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\kanban.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\kanban.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\prism.mini.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\prism.mini.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\setting.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\setting.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\js\\plugins\\slider-tabs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\slider-tabs.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\2 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\2 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\3 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\3 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Activity.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Activity.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Add User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Add User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Down 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Down 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Down 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Down 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Down Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Down Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Down Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Down Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Left 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Left 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Left 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Left 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Left Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Left Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Left Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Left Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Left.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Left.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Right 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Right 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Right 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Right 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Right Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Right Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Right Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Right Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Right.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Right.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Up 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Up 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Up 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Up 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Up Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Up Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Up Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Up Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Arrow - Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Arrow - Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Bag 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Bag 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Bag.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Bag.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Bookmark.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Buy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Buy.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Calendar.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Call Missed.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Call Missed.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Call Silent.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Call Silent.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Call.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Call.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Calling.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Calling.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Camera.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Camera.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Category.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Category.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Chart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Chart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Chat.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Chat.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Close Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Close Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Danger.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Danger.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Delete.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Delete.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Discount.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Discount.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Discovery.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Discovery.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Document.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Document.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Edit Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Edit Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Edit.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Edit.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Filter 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Filter 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Filter.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Filter.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Folder.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Folder.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Game.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Game.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Graph.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Graph.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Heart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Heart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Hide.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Hide.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Home.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Home.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Image 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Image 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Image.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Image.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Info Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Info Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Info Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Info Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Location.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Location.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Lock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Lock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Login.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Login.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Logout.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Logout.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Message.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Message.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\More Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\More Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\More Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\More Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Notification.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Notification.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper Negative.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper Negative.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Paper.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Paper.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Password.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Password.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Play.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Play.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Profile.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Profile.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Scan.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Scan.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Search.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Search.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Send.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Send.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Setting.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Setting.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Shield Done.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Shield Done.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Shield Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Shield Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Show.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Show.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Swap.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Swap.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Tick Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Tick Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Ticket Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Ticket Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Ticket.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Ticket.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Time Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Time Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Time Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Time Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Unlock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Video.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Video.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Voice 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Voice 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Voice.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Voice.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Volume Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Volume Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Volume Off.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Volume Off.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Volume Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Volume Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Wallet.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Wallet.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Bold\\Work.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Bold\\Work.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\2 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\2 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\3 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\3 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Activity.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Activity.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Add User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Add User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Down 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Down 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Down 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Down 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Down Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Down Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Down Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Down Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Left 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Left 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Left 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Left 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Left Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Left Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Left Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Left Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Left.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Left.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Right 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Right 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Right 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Right 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Right Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Right Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Right Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Right Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Right.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Right.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Up 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Up 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Up 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Up 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Up Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Up Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Up Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Up Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Arrow - Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Arrow - Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Bag 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Bag 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Bag.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Bag.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Bookmark.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Buy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Buy.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Calendar.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Call Missed.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Call Missed.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Call Silent.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Call Silent.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Call.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Call.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Calling.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Calling.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Camera.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Camera.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Category.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Category.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Chart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Chart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Chat.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Chat.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Close Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Close Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Danger.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Danger.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Delete.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Delete.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Discount.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Discount.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Discovery.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Discovery.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Document.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Document.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Edit Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Edit Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Edit.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Edit.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Filter 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Filter 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Filter.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Filter.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Folder.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Folder.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Game.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Game.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Graph.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Graph.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Heart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Heart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Hide.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Hide.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Home.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Home.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Image 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Image 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Image.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Image.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Info Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Info Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Info Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Info Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Location.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Location.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Lock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Lock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Login.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Login.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Logout.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Logout.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Message.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Message.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\More Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\More Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\More Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\More Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Notification.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Notification.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper Negative.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper Negative.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Paper.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Paper.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Password.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Password.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Play.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Play.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Profile.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Profile.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Scan.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Scan.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Search.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Search.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Send.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Send.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Setting.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Setting.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Shield Done.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Shield Done.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Shield Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Shield Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Show.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Show.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Swap.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Swap.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Tick Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Tick Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Ticket Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Ticket Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Ticket.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Ticket.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Time Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Time Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Time Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Time Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Unlock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Video.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Video.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Voice 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Voice 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Voice.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Voice.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Volume Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Volume Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Volume Off.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Volume Off.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Volume Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Volume Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Wallet.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Wallet.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Colored\\Work.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Colored\\Work.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\2 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\2 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\3 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\3 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Activity.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Activity.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Add User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Add User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Left.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Right.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Arrow - Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Bag 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Bag 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Bag.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Bag.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Bookmark.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Buy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Buy.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Calendar.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Call Missed.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Call Missed.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Call Silent.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Call Silent.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Call.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Call.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Calling.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Calling.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Camera.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Camera.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Category.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Category.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Chart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Chart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Chat.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Chat.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Close Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Close Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Danger.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Danger.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Delete.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Delete.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Discount.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Discount.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Discovery.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Discovery.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Document.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Document.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Edit Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Edit Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Edit.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Edit.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Filter 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Filter 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Filter.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Filter.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Folder.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Folder.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Game.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Game.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Graph.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Graph.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Heart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Heart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Hide.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Hide.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Home.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Home.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Image 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Image 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Image.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Image.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Info Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Info Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Info Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Info Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Location.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Location.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Lock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Lock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Login.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Login.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Logout.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Logout.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Message.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Message.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\More Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\More Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\More Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\More Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Notification.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Notification.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper Negative.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper Negative.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Paper.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Paper.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Password.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Password.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Play.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Play.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Profile.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Profile.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Scan.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Scan.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Search.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Search.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Send.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Send.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Setting.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Setting.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Shield Done.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Shield Done.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Shield Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Shield Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Show.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Show.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Swap.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Swap.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Tick Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Tick Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Ticket Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Ticket Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Ticket.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Ticket.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Time Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Time Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Time Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Time Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Unlock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Video.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Video.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Voice 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Voice 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Voice.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Voice.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Volume Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Volume Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Volume Off.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Volume Off.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Volume Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Volume Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Wallet.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Wallet.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\DualTone\\Work.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\DualTone\\Work.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\2 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\2 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\3 User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\3 User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Activity.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Activity.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Add User.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Add User.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Down 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Down 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Down 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Down 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Down Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Down Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Down Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Down Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Left 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Left 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Left 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Left 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Left Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Left Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Left Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Left Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Left.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Left.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Right 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Right 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Right 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Right 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Right Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Right Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Right Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Right Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Right.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Right.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Up 2.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Up 2.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Up 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Up 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Up Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Up Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Up Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Up Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Arrow - Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Arrow - Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Bag 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Bag 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Bag.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Bag.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Bookmark.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Buy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Buy.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Calendar.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Call Missed.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Call Missed.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Call Silent.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Call Silent.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Call.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Call.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Calling.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Calling.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Camera.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Camera.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Category.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Category.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Chart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Chart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Chat.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Chat.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Close Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Close Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Danger Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Danger Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Danger Triangle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Danger Triangle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Delete.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Delete.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Discount.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Discount.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Discovery.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Discovery.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Document.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Document.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Edit Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Edit Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Edit.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Edit.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Filter 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Filter 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Filter.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Filter.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Folder.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Folder.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Game.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Game.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Graph.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Graph.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Heart.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Heart.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Hide.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Hide.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Home.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Home.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Image 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Image 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Image.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Image.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Info Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Info Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Location.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Location.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Lock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Lock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Login.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Login.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Logout.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Logout.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Message.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Message.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\More Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\More Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\More Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\More Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Notification.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Notification.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper Download.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper Download.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper Negative.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper Negative.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Paper.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Paper.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Password.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Password.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Play.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Play.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Plus.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Plus.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Profile.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Profile.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Scan.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Scan.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Search.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Search.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Send.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Send.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Setting.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Setting.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Shield Done.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Shield Done.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Shield Fail.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Shield Fail.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Show.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Show.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Swap.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Swap.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Tick Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Tick Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Ticket Star.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Ticket Star.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Ticket.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Ticket.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Time Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Time Circle.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Time Square.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Time Square.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Unlock.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Upload.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Upload.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Video.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Video.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Voice 3.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Voice 3.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Voice.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Voice.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Volume Down.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Volume Down.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Volume Off.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Volume Off.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Volume Up.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Volume Up.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Wallet.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Wallet.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Iconly\\Line\\Work.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Iconly\\Line\\Work.svg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\images\\marker-icon-2x.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\images\\marker-icon-2x.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\images\\marker-shadow.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\images\\marker-shadow.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet-src.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet-src.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet-src.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet-src.esm.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet-src.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet-src.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet-src.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet-src.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\Leaflet\\leaflet.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\Leaflet\\leaflet.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\aos\\dist\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\dist\\aos.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\aos\\dist\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\dist\\aos.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\bootstrap\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales-all.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales-all.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales-all.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\af.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\af.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-dz.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-kw.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-ly.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-ma.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-sa.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar-tn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ar.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\bg.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\bs.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ca.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\cs.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\da.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\da.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\de.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\de.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\el.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\el.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\en-au.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\en-au.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\en-gb.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\en-gb.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\en-nz.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\en-nz.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\es-us.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\es-us.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\es.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\es.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\et.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\et.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\eu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\eu.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\fa.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\fi.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\fr-ca.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\fr-ch.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\fr.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\gl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\gl.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\he.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\he.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\hi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\hi.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\hr.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\hu.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\id.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\id.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\is.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\is.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\it.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\it.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ja.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ka.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ka.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\kk.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ko.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\lb.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\lb.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\lt.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\lv.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\mk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\mk.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ms.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\nb.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\nb.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\nl.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\nn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\nn.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\pl.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\pt-br.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\pt-br.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\pt.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ro.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\ru.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sk.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sl.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sq.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sr.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\sv.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\th.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\th.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\tr.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\uk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\uk.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\vi.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\zh-cn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\locales\\zh-tw.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\locales\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\core\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\core\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\daygrid\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\daygrid\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\google-calendar\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\google-calendar\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\interaction\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\interaction\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\list\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\list\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\luxon\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\luxon\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment-timezone\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment-timezone\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\moment\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\moment\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\rrule\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\rrule\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\README.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.d.ts"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\main.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\fullcalendar\\timegrid\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\timegrid\\package.json"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\lodash\\lodash.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\lodash\\lodash.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\moment.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\sortable\\Sortable.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\sortable\\Sortable.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\sortable\\Sortable.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\sortable\\Sortable.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\swiperSlider\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiperSlider\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\assets\\vendor\\swiperSlider\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiperSlider\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\landing-pages.css",
+      "PackagePath": "staticwebassets\\css\\landing-pages.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\landing-pages.min.css",
+      "PackagePath": "staticwebassets\\css\\landing-pages.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\maps\\landing-pages.min.css.map",
+      "PackagePath": "staticwebassets\\css\\maps\\landing-pages.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\my.css",
+      "PackagePath": "staticwebassets\\css\\my.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\01.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\02.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\03.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\04.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\05.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\06.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\07.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\08.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\08.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\09.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\09.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\blog\\10.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\10.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\01.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\02.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\03.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\04.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\05.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\06.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\07.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\08.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\08.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\09.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\09.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\10.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\10.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\11.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\11.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\aamir.JPG",
+      "PackagePath": "staticwebassets\\images\\home-1\\aamir.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\aboutus.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\aboutus.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\alihassan.JPG",
+      "PackagePath": "staticwebassets\\images\\home-1\\alihassan.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\appstore.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\appstore.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\banner-top.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\banner-top.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\dwn-1.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\dwn-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\dwn-2.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\dwn-2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\one.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\one.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\playstore.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\playstore.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\saqib.JPG",
+      "PackagePath": "staticwebassets\\images\\home-1\\saqib.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\team-3.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\team-3.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\team-4.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\team-4.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\team1.jpg",
+      "PackagePath": "staticwebassets\\images\\home-1\\team1.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\team1.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\team1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\team2.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\team2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\three.webp",
+      "PackagePath": "staticwebassets\\images\\home-1\\three.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-1\\waqas.JPG",
+      "PackagePath": "staticwebassets\\images\\home-1\\waqas.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\01.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\02.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\03.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\04.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\audience.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\audience.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\banner-contact.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\banner-contact.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\banner-right.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\shape.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\shape.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-allora.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-allora.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-ephoria.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-ephoria.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-geritcht.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-geritcht.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-qreate.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-qreate.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-slaint.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-slaint.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\theme-sound.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\theme-sound.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\user-1.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\user-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\user-2.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\user-2.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-2\\user-3.webp",
+      "PackagePath": "staticwebassets\\images\\home-2\\user-3.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\01.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\02.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\03.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\04.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\audience.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\audience.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\banner-right.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\business.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\business.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\business1.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\business1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-3\\fullbanner.webp",
+      "PackagePath": "staticwebassets\\images\\home-3\\fullbanner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\01.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\01.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\02.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\03.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\03.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\04.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\04.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\05.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\05.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\06.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\06.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\07.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\07.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\Image-1.JPG",
+      "PackagePath": "staticwebassets\\images\\home-4\\Image-1.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\Image-1.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\Image-1.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\banner-left.JPG",
+      "PackagePath": "staticwebassets\\images\\home-4\\banner-left.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\banner-left.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\banner-left.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\banner-right.JPG",
+      "PackagePath": "staticwebassets\\images\\home-4\\banner-right.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\banner-right.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\banner-right.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\contact.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\contact.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\service.JPG",
+      "PackagePath": "staticwebassets\\images\\home-4\\service.JPG"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\service.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\service.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-4\\slider-banner.webp",
+      "PackagePath": "staticwebassets\\images\\home-4\\slider-banner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-5\\02.webp",
+      "PackagePath": "staticwebassets\\images\\home-5\\02.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-5\\about-5.webp",
+      "PackagePath": "staticwebassets\\images\\home-5\\about-5.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-5\\top-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\home-5\\top-banner.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\home-5\\top-banner.webp",
+      "PackagePath": "staticwebassets\\images\\home-5\\top-banner.webp"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\newlogo.png",
+      "PackagePath": "staticwebassets\\images\\newlogo.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\19ed0a55-9828-4aa9-bad4-a26ec7bf64ce.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\19ed0a55-9828-4aa9-bad4-a26ec7bf64ce.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\305792f1-3942-4ab1-9887-cedab4c2853d.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\305792f1-3942-4ab1-9887-cedab4c2853d.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\4729f759-e1b6-4c29-b693-bd5ed430b532.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\4729f759-e1b6-4c29-b693-bd5ed430b532.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\6a123ef3-4978-4390-94c4-66f47353ec88.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\6a123ef3-4978-4390-94c4-66f47353ec88.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\6da786ef-79bd-44d6-ad83-dd1dba8c5557.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\6da786ef-79bd-44d6-ad83-dd1dba8c5557.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\8142981b-7a68-41c7-a5b8-9f531dc92c11.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\8142981b-7a68-41c7-a5b8-9f531dc92c11.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\9cbff422-9a77-49e3-8154-fa6d507106ee.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\9cbff422-9a77-49e3-8154-fa6d507106ee.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\b39c4c08-ae6b-4a4c-8fa8-ba2ed743a15f.avif",
+      "PackagePath": "staticwebassets\\images\\students\\b39c4c08-ae6b-4a4c-8fa8-ba2ed743a15f.avif"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\c9ffb30f-be01-4b74-bba6-35b1ef451d8b.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\c9ffb30f-be01-4b74-bba6-35b1ef451d8b.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\ef68feac-6770-44d5-9364-4a703377c290.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\ef68feac-6770-44d5-9364-4a703377c290.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\f85629bc-9a7f-48b4-8421-dd56d4df3fde.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\f85629bc-9a7f-48b4-8421-dd56d4df3fde.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\f8f0d5ad-6be7-47f1-a58b-f0b9862a4f3d.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\f8f0d5ad-6be7-47f1-a58b-f0b9862a4f3d.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\students\\student.png",
+      "PackagePath": "staticwebassets\\images\\students\\student.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\images\\top-header.jpg",
+      "PackagePath": "staticwebassets\\images\\top-header.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\js\\app-landing.js",
+      "PackagePath": "staticwebassets\\js\\app-landing.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\js\\data.js",
+      "PackagePath": "staticwebassets\\js\\data.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\2690e83e-80a2-48bb-a1e1-00a85d9b1ca0.pdf",
+      "PackagePath": "staticwebassets\\papers\\2690e83e-80a2-48bb-a1e1-00a85d9b1ca0.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\5f2e2ec8-1391-4d4c-9570-e6733d0a1c23.pdf",
+      "PackagePath": "staticwebassets\\papers\\5f2e2ec8-1391-4d4c-9570-e6733d0a1c23.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\61490d4f-a6ef-4acf-850d-8c9285a9bffb.pdf",
+      "PackagePath": "staticwebassets\\papers\\61490d4f-a6ef-4acf-850d-8c9285a9bffb.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\9796b5da-9827-4d1f-b9c2-83405a1909e4.pdf",
+      "PackagePath": "staticwebassets\\papers\\9796b5da-9827-4d1f-b9c2-83405a1909e4.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\audio.png",
+      "PackagePath": "staticwebassets\\resources\\audio.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\default.jpg",
+      "PackagePath": "staticwebassets\\resources\\default.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\image.png",
+      "PackagePath": "staticwebassets\\resources\\image.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\notes.png",
+      "PackagePath": "staticwebassets\\resources\\notes.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\5371c1ec-01b3-4a6e-945d-d7066a9c9861.jpg",
+      "PackagePath": "staticwebassets\\resources\\receipts\\5371c1ec-01b3-4a6e-945d-d7066a9c9861.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\7f6b2a5b-5118-432b-a2f0-816717bef23d.jpg",
+      "PackagePath": "staticwebassets\\resources\\receipts\\7f6b2a5b-5118-432b-a2f0-816717bef23d.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\94138e04-dd40-44c1-b1f8-4fbb79f662ec.jpg",
+      "PackagePath": "staticwebassets\\resources\\receipts\\94138e04-dd40-44c1-b1f8-4fbb79f662ec.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\a263dc96-289a-4944-948f-49e7713a2d9f.jpg",
+      "PackagePath": "staticwebassets\\resources\\receipts\\a263dc96-289a-4944-948f-49e7713a2d9f.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\a895ba88-950c-4c85-961c-6ec8ba01cefb.png",
+      "PackagePath": "staticwebassets\\resources\\receipts\\a895ba88-950c-4c85-961c-6ec8ba01cefb.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\c71fe4a8-3bd5-42fb-8306-9004a66205fc.jpg",
+      "PackagePath": "staticwebassets\\resources\\receipts\\c71fe4a8-3bd5-42fb-8306-9004a66205fc.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\solution.jpg",
+      "PackagePath": "staticwebassets\\resources\\solution.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\050fbe74-8303-48a7-8628-e0380e692cd0.mp3",
+      "PackagePath": "staticwebassets\\resources\\subjects\\050fbe74-8303-48a7-8628-e0380e692cd0.mp3"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\19562655-5cb0-44f9-800c-f06ae90cac74.pdf",
+      "PackagePath": "staticwebassets\\resources\\subjects\\19562655-5cb0-44f9-800c-f06ae90cac74.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\6ae4d0e1-af75-419e-9745-73389d738ac6.jpg",
+      "PackagePath": "staticwebassets\\resources\\subjects\\6ae4d0e1-af75-419e-9745-73389d738ac6.jpg"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\85340c78-143f-4993-8106-65b725dbe8e4.pdf",
+      "PackagePath": "staticwebassets\\resources\\subjects\\85340c78-143f-4993-8106-65b725dbe8e4.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\87351ee5-a2ef-4774-90ee-dae259b82710.pdf",
+      "PackagePath": "staticwebassets\\resources\\subjects\\87351ee5-a2ef-4774-90ee-dae259b82710.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\b6ba23f7-5620-4700-8335-efcde0a57f5e.zip",
+      "PackagePath": "staticwebassets\\resources\\subjects\\b6ba23f7-5620-4700-8335-efcde0a57f5e.zip"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\b8910922-0d44-4df1-ba06-4f85ce94d252.pdf",
+      "PackagePath": "staticwebassets\\resources\\subjects\\b8910922-0d44-4df1-ba06-4f85ce94d252.pdf"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\ca29c3c9-af09-4329-85fe-b5170aad55f6.mp3",
+      "PackagePath": "staticwebassets\\resources\\subjects\\ca29c3c9-af09-4329-85fe-b5170aad55f6.mp3"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\url.png",
+      "PackagePath": "staticwebassets\\resources\\url.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\video.png",
+      "PackagePath": "staticwebassets\\resources\\video.png"
+    },
+    {
+      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\voucher.png",
+      "PackagePath": "staticwebassets\\resources\\voucher.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LMSWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LMSWeb.props",
+      "PackagePath": "build\\LMSWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LMSWeb.props",
+      "PackagePath": "buildMultiTargeting\\LMSWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LMSWeb.props",
+      "PackagePath": "buildTransitive\\LMSWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

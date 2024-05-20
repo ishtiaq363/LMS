@@ -1,0 +1,79 @@
+﻿
+@{
+    var items = ViewBag.Payments; // Cast ViewBag.Items to the appropriate type
+}
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <div class="header-title tableheading">
+                <h4 class="">All Fee Vourchers</h4>
+
+                <a asp-controller="Payment" asp-action="Create" class="btn btn-primary float-right">Submit Fee Voucher</a>
+            </div>
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive">
+                <table id="basic-table" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr>
+                            
+                            <th>Paid Fee</th>
+                            <th>Payment Date</th>
+                            <th>Receipt</th>
+                           
+                            <th>Status</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var payment in items)
+                        {
+                            <tr>
+                                
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <h6>@payment.PaymentAmount</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    @payment.PaymentDate
+                                </td>
+                                <td>
+                                    <a href="@payment.ReceiptUrl" target="_blank">
+                                        <img src="/resources/voucher.png" width="30" height="30" alt="Type 1 Image" />
+                                    </a>
+                                </td>
+                                @if (payment.Status == "Review")
+                                {
+                                    <td style="color:brown">@payment.Status</td>
+                                }
+                                else if (payment.Status == "Paid")
+                                {
+                                    <td style="color:green;">@payment.Status</td>
+                                }
+                                else if (payment.Status == "UnPaid")
+                                {
+                                    <td style="color:red;">@payment.Status</td>
+                                }
+                                else if (payment.Status == "Partial Paid")
+                                {
+                                    <td style="color:darkviolet;">@payment.Status</td>
+                                }
+
+                                
+
+                               
+                            </tr>
+                        }
+                        @if (items.Count == 0)
+                        {
+                            <tr><td>No Data To Show</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

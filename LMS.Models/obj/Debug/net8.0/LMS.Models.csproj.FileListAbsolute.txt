@@ -1,0 +1,15 @@
+D:\aspnetcore\LMS\LMS.Models\bin\Debug\net8.0\LMS.Models.deps.json
+D:\aspnetcore\LMS\LMS.Models\bin\Debug\net8.0\LMS.Models.dll
+D:\aspnetcore\LMS\LMS.Models\bin\Debug\net8.0\LMS.Models.pdb
+D:\aspnetcore\LMS\LMS.Models\bin\Debug\net8.0\LMS.Utility.dll
+D:\aspnetcore\LMS\LMS.Models\bin\Debug\net8.0\LMS.Utility.pdb
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.csproj.AssemblyReference.cache
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.AssemblyInfoInputs.cache
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.AssemblyInfo.cs
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.csproj.CoreCompileInputs.cache
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.csproj.CopyComplete
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.dll
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\refint\LMS.Models.dll
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.pdb
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\ref\LMS.Models.dll

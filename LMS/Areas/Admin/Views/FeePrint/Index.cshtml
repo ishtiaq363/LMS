@@ -1,0 +1,72 @@
+﻿@model System.Collections.Generic.List< LMSWeb.Models.PaymentViewModel>
+<div class="col-md-12 col-lg-12">
+    <div class="overflow-hidden card" data-aos="fade-up" data-aos-delay="600">
+        <div class="flex-wrap card-header d-flex justify-content-between">
+            <div class="header-title tableheading">
+                <h4 class="">All Courses</h4>
+                <input type="date" style="width:400px" class="form-control float-right" onchange="fetchFeeByDate(this)" />
+                <button class="btn btn-primary float-right" onclick="printTheReport()">Print</button>
+
+
+            </div>
+        </div>
+        <div class="p-0 card-body">
+            <div class="mt-4 table-responsive myDivToPrint" id="printDiv">
+                <h4 id="myHeading"> </h4>
+                <table id="basic-table" style="width: 100%; border-collapse: collapse; text-align: left;" class="table mb-0 table-striped" role="grid">
+                    <thead>
+                        <tr style="text-align: left;">
+                            <th>Batch</th>
+                            <th>Student</th>
+                            <th>Staus</th>
+                            <th>Paid Fee</th>
+                            <th>Payment Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var payment in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div>
+                                        <h6>@payment.BatchName</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <h6>@payment.StudentName</h6>
+                                    </div>
+                                </td>
+                                <td >@payment.Status</td>
+                              
+
+                                <td>
+                                    <div>
+                                        <h6>@payment.PaymentAmount</h6>
+                                    </div>
+                                </td>
+                                <td>
+                                    @payment.PaymentDate.ToShortDateString()
+                                </td>
+
+
+                            </tr>
+                        }
+                        @if (Model.Count == 0)
+                        {
+                            <tr><td>No Data To Show</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+  
+    </script>
+}
+

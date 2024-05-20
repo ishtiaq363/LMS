@@ -1,0 +1,126 @@
+﻿@model LMSWeb.Models.StudentViewModel
+<div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-10">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Registration Form</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form  method="post">
+                        <div class="row">
+                            <!-- Left Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label asp-for="FullName" class="form-label"></label>
+                                    <input asp-for="FullName" class="form-control" disabled />
+                                    <span asp-validation-for="FullName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="FatherName" class="form-label"></label>
+                                    <input asp-for="FatherName" class="form-control" disabled />
+                                    <span asp-validation-for="FatherName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="DOB" class="form-label"></label>
+                                    <input type="date" asp-for="DOB" class="form-control" disabled />
+                                    <span asp-validation-for="DOB" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <!-- Right Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3 text-center">
+
+                                    <img src="@Model.ImageURL" id="preview" class="img-fluid rounded-circle" alt="Student Image" style="max-width: 200px;">
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Left Column -->
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label asp-for="RegistrationNo" class="form-label">Roll No</label>
+                                    <input asp-for="RegistrationNo" class="form-control" disabled />
+                                    <span asp-validation-for="RegistrationNo" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="MobileNo" class="form-label">Mobile No</label>
+                                    <input asp-for="MobileNo" class="form-control" disabled />
+                                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label asp-for="Password" class="form-label">Password</label>
+                                    <input asp-for="Password" class="form-control" disabled />
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Gender" class="form-label">Gender</label>
+                                    <select asp-for="Gender" disabled class="form-control" asp-items="ViewBag.GenderOptions"></select>
+
+                                    <span asp-validation-for="Gender"  class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="Address" class="form-label">Address</label>
+                                    <input asp-for="Address" class="form-control" disabled />
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <!-- Right Column -->
+
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="City" class="form-label">City</label>
+                                            <input asp-for="City" class="form-control" disabled />
+                                            <span asp-validation-for="City" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Email" class="form-label">Email</label>
+                                            <input asp-for="Email" class="form-control" disabled />
+                                            <span asp-validation-for="Email" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label asp-for="Status" class="form-label"></label>
+                                    <select asp-for="Status" class="form-control" asp-items="ViewBag.AvailableOptions"></select>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="hidden" value="~/images/students/student.png" asp-for="ImageURL" class="form-control" />
+                            <span asp-validation-for="ImageURL" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Delete</button>
+                        <a asp-controller="Student" asp-action="index" class="btn btn-danger">cancel</a>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
