@@ -17,3 +17,4 @@ D:\aspnetcore\LMS\LMS.DataAccess\obj\Debug\net8.0\refint\LMS.DataAccess.dll
 D:\aspnetcore\LMS\LMS.DataAccess\obj\Debug\net8.0\LMS.DataAccess.pdb
 D:\aspnetcore\LMS\LMS.DataAccess\obj\Debug\net8.0\LMS.DataAccess.genruntimeconfig.cache
 D:\aspnetcore\LMS\LMS.DataAccess\obj\Debug\net8.0\ref\LMS.DataAccess.dll
+D:\aspnetcore\LMS\LMS.DataAccess\obj\Debug\net8.0\LMS.DataAccess.sourcelink.json

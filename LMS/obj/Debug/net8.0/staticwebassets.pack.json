@@ -5,74 +5,6 @@
       "PackagePath": "staticwebassets\\LMSWeb.bundle.scp.css"
     },
     {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\3218aafb-fd9d-4925-9cea-b6756752ca96.docx",
-      "PackagePath": "staticwebassets\\Exams\\3218aafb-fd9d-4925-9cea-b6756752ca96.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\672c5553-8af9-4645-8006-1bc280d79b8d.docx",
-      "PackagePath": "staticwebassets\\Exams\\672c5553-8af9-4645-8006-1bc280d79b8d.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\7022c826-9e00-4baf-98f7-2dacb8203b6f.zip",
-      "PackagePath": "staticwebassets\\Exams\\7022c826-9e00-4baf-98f7-2dacb8203b6f.zip"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\78aa5bbf-1692-4a19-9732-5a3b1afc64c7.pdf",
-      "PackagePath": "staticwebassets\\Exams\\78aa5bbf-1692-4a19-9732-5a3b1afc64c7.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\c51cd81e-b078-4f88-ad11-b40ecd024bbb.pdf",
-      "PackagePath": "staticwebassets\\Exams\\c51cd81e-b078-4f88-ad11-b40ecd024bbb.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Exams\\ca209377-155a-4483-b6ac-81e0cbdd8be0.docx",
-      "PackagePath": "staticwebassets\\Exams\\ca209377-155a-4483-b6ac-81e0cbdd8be0.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\18d5f013-0ccf-41d6-a414-92c10aacf312.docx",
-      "PackagePath": "staticwebassets\\Submissions\\18d5f013-0ccf-41d6-a414-92c10aacf312.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\1cf8b851-c2ae-4c54-9482-60ffe4fc6684.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\1cf8b851-c2ae-4c54-9482-60ffe4fc6684.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\64b4312c-384b-4ff9-9b79-9c3533751d3b.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\64b4312c-384b-4ff9-9b79-9c3533751d3b.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\8040e094-27c7-4045-a878-49e30f295d6b.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\8040e094-27c7-4045-a878-49e30f295d6b.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\9146fc42-1097-4511-adca-be4e213df144.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\9146fc42-1097-4511-adca-be4e213df144.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\a9f3bf60-fdd6-4b4b-bf02-b68a17625a23.docx",
-      "PackagePath": "staticwebassets\\Submissions\\a9f3bf60-fdd6-4b4b-bf02-b68a17625a23.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\abe519c3-c978-4293-86ee-498b1be469f6.docx",
-      "PackagePath": "staticwebassets\\Submissions\\abe519c3-c978-4293-86ee-498b1be469f6.docx"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\adea8786-e474-4afc-98f5-f59a0ea77903.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\adea8786-e474-4afc-98f5-f59a0ea77903.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\c44bc350-af78-4f26-a050-556e8ad4149b.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\c44bc350-af78-4f26-a050-556e8ad4149b.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\dddcaaaf-2952-4178-8ff9-4aceb5cc00f4.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\dddcaaaf-2952-4178-8ff9-4aceb5cc00f4.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\Submissions\\e4d13cf4-8b59-4c26-b49c-00ab825b0c07.jpg",
-      "PackagePath": "staticwebassets\\Submissions\\e4d13cf4-8b59-4c26-b49c-00ab825b0c07.jpg"
-    },
-    {
       "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\asset\\css\\landing-pages.css",
       "PackagePath": "staticwebassets\\asset\\css\\landing-pages.css"
     },
@@ -4001,22 +3933,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\2690e83e-80a2-48bb-a1e1-00a85d9b1ca0.pdf",
-      "PackagePath": "staticwebassets\\papers\\2690e83e-80a2-48bb-a1e1-00a85d9b1ca0.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\5f2e2ec8-1391-4d4c-9570-e6733d0a1c23.pdf",
-      "PackagePath": "staticwebassets\\papers\\5f2e2ec8-1391-4d4c-9570-e6733d0a1c23.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\61490d4f-a6ef-4acf-850d-8c9285a9bffb.pdf",
-      "PackagePath": "staticwebassets\\papers\\61490d4f-a6ef-4acf-850d-8c9285a9bffb.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\papers\\9796b5da-9827-4d1f-b9c2-83405a1909e4.pdf",
-      "PackagePath": "staticwebassets\\papers\\9796b5da-9827-4d1f-b9c2-83405a1909e4.pdf"
-    },
-    {
       "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\audio.png",
       "PackagePath": "staticwebassets\\resources\\audio.png"
     },
@@ -4033,64 +3949,8 @@
       "PackagePath": "staticwebassets\\resources\\notes.png"
     },
     {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\5371c1ec-01b3-4a6e-945d-d7066a9c9861.jpg",
-      "PackagePath": "staticwebassets\\resources\\receipts\\5371c1ec-01b3-4a6e-945d-d7066a9c9861.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\7f6b2a5b-5118-432b-a2f0-816717bef23d.jpg",
-      "PackagePath": "staticwebassets\\resources\\receipts\\7f6b2a5b-5118-432b-a2f0-816717bef23d.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\94138e04-dd40-44c1-b1f8-4fbb79f662ec.jpg",
-      "PackagePath": "staticwebassets\\resources\\receipts\\94138e04-dd40-44c1-b1f8-4fbb79f662ec.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\a263dc96-289a-4944-948f-49e7713a2d9f.jpg",
-      "PackagePath": "staticwebassets\\resources\\receipts\\a263dc96-289a-4944-948f-49e7713a2d9f.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\a895ba88-950c-4c85-961c-6ec8ba01cefb.png",
-      "PackagePath": "staticwebassets\\resources\\receipts\\a895ba88-950c-4c85-961c-6ec8ba01cefb.png"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\receipts\\c71fe4a8-3bd5-42fb-8306-9004a66205fc.jpg",
-      "PackagePath": "staticwebassets\\resources\\receipts\\c71fe4a8-3bd5-42fb-8306-9004a66205fc.jpg"
-    },
-    {
       "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\solution.jpg",
       "PackagePath": "staticwebassets\\resources\\solution.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\050fbe74-8303-48a7-8628-e0380e692cd0.mp3",
-      "PackagePath": "staticwebassets\\resources\\subjects\\050fbe74-8303-48a7-8628-e0380e692cd0.mp3"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\19562655-5cb0-44f9-800c-f06ae90cac74.pdf",
-      "PackagePath": "staticwebassets\\resources\\subjects\\19562655-5cb0-44f9-800c-f06ae90cac74.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\6ae4d0e1-af75-419e-9745-73389d738ac6.jpg",
-      "PackagePath": "staticwebassets\\resources\\subjects\\6ae4d0e1-af75-419e-9745-73389d738ac6.jpg"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\85340c78-143f-4993-8106-65b725dbe8e4.pdf",
-      "PackagePath": "staticwebassets\\resources\\subjects\\85340c78-143f-4993-8106-65b725dbe8e4.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\87351ee5-a2ef-4774-90ee-dae259b82710.pdf",
-      "PackagePath": "staticwebassets\\resources\\subjects\\87351ee5-a2ef-4774-90ee-dae259b82710.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\b6ba23f7-5620-4700-8335-efcde0a57f5e.zip",
-      "PackagePath": "staticwebassets\\resources\\subjects\\b6ba23f7-5620-4700-8335-efcde0a57f5e.zip"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\b8910922-0d44-4df1-ba06-4f85ce94d252.pdf",
-      "PackagePath": "staticwebassets\\resources\\subjects\\b8910922-0d44-4df1-ba06-4f85ce94d252.pdf"
-    },
-    {
-      "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\subjects\\ca29c3c9-af09-4329-85fe-b5170aad55f6.mp3",
-      "PackagePath": "staticwebassets\\resources\\subjects\\ca29c3c9-af09-4329-85fe-b5170aad55f6.mp3"
     },
     {
       "Id": "D:\\aspnetcore\\LMS\\LMS\\wwwroot\\resources\\url.png",

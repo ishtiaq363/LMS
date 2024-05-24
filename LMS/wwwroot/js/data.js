@@ -5,7 +5,7 @@
 
 function loadAllSubjectData(obj) {
     document.getElementById("nv").style.display = "block";
-   // document.getElementById("profile-feed").style.display = "block";
+    // document.getElementById("profile-feed").style.display = "block";
     getSubjectResources(obj);
     getPaperInformation(obj);
     getsubjectOutlineInformation(obj);
@@ -13,9 +13,9 @@ function loadAllSubjectData(obj) {
 function getSubjectResources(obj) {
     var Id = obj.id;
     $("#myname").text(obj.getAttribute('name'));
-    $("#assessmentsubjectname").text(" Assessment of "+ obj.getAttribute('name'));
+    $("#assessmentsubjectname").text(" Assessment of " + obj.getAttribute('name'));
     $("#outline").text(obj.getAttribute('name') + " Outline");
-   // alert(Id)
+    // alert(Id)
     //hideLinks();
     $.ajax({
         url: "/student/Home/GetSubjectLinksInformation",
@@ -24,7 +24,7 @@ function getSubjectResources(obj) {
         success: function (response) {
             let data = [...response];
             unload();
-          
+
             if (data) {
                 showResourceOnTable(data);
                 getPaperInformation(obj)
@@ -45,7 +45,7 @@ function getSubjectResources(obj) {
             tableBody.empty();
             var row = $("<tr>");
             tableBody.append(row.append($("<p>").text("No Resource found")));
-            
+
             unload();
         }
     });
@@ -54,10 +54,10 @@ function getSubjectResources(obj) {
 
 
 function getPaperInformation(obj) {
-   // alert('hello')
+    // alert('hello')
     var Id = obj.id;
     $("#myname").text(obj.getAttribute('name'));
-   // alert(Id)
+    // alert(Id)
     hideLinks();
     $.ajax({
         url: "/student/Home/GetPaperInformation",
@@ -66,7 +66,7 @@ function getPaperInformation(obj) {
         success: function (response) {
             let data = [...response];
             unload();
-            
+
             if (data) {
                 showAssessmentResourceOnTable(data);
 
@@ -82,7 +82,7 @@ function getPaperInformation(obj) {
             }
         },
         error: function (xhr, textStatus, errorThrown) {
-            
+
             var tableBody = $("#assessmentDataTable tbody");
             tableBody.empty();
             var row = $("<tr>");
@@ -95,15 +95,15 @@ function getPaperInformation(obj) {
 
 
 function showAssessmentResourceOnTable(data) {
-   
- 
-   
+
+
+
     var tableBody = $("#assessmentDataTable tbody");
     // Clear existing rows
     tableBody.empty();
     // Iterate over data and generate table rows
     $.each(data, function (index, item) {
-       // alert(isDateEqualToToday(data[index].assessmentDate))
+        // alert(isDateEqualToToday(data[index].assessmentDate))
         var row = $("<tr>");
         let counter = 0;
         console.log(data);
@@ -125,66 +125,66 @@ function showAssessmentResourceOnTable(data) {
             } else if (key == "assessmentDate" || key == "startTime" || key == "endTime") {
                 row.append($("<td>").text(value));
             } else if (key == "status") {
-                if(check) {
-                    
+                if (check) {
+
                     let fileInput = $("<input>").attr({
                         type: "file",
-                        name: "file", 
+                        name: "file",
                         id: "file-" + data[index].id
 
                     });
                     let submitButton = $("<button>").text("Submit Paper").click(submitAssessmentToDB).attr("id", data[index].id).addClass("btn btn-primary");
-                    
-                  
+
+
                     row.append($("<td>").append(fileInput).append("<hr>").append(submitButton));
                 } else {
-                    
+
                     row.append($("<td>").text("--"));
                 }
             }
-            
-           
-         });
+
+
+        });
 
         tableBody.append(row);
     });
-    
+
 
 }
 function submitAssessmentToDB() {
     let fileId = "file-" + this.id;
     var fileInput = document.getElementById(fileId);
-        var file = fileInput.files[0];
+    var file = fileInput.files[0];
     var assessmentScheduleId = this.id;
     var studentId = $("#StudentId").val();
-       
-        if (file) {
-            var formData = new FormData();
-            formData.append("file", file);
-            formData.append("assessmentScheduleId", assessmentScheduleId);
-            formData.append("studentId", studentId);
-            fetch("/student/Home/SubmitAssessment", {
-                method: "POST",
-                body: formData
-            })
-                .then(response => {
-                    if (response.ok) {
-                        // File submitted successfully
-                        alert("File submitted successfully.");
-                        window.location.reload();
-                    } else {
-                        // Error handling
-                        alert("Error submitting file.");
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
+
+    if (file) {
+        var formData = new FormData();
+        formData.append("file", file);
+        formData.append("assessmentScheduleId", assessmentScheduleId);
+        formData.append("studentId", studentId);
+        fetch("/student/Home/SubmitAssessment", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => {
+                if (response.ok) {
+                    // File submitted successfully
+                    alert("File submitted successfully.");
+                    window.location.reload();
+                } else {
+                    // Error handling
                     alert("Error submitting file.");
-                });
-        } else {
-            console.log("No file selected.");
-        }
-   
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("Error submitting file.");
+            });
+    } else {
+        console.log("No file selected.");
+    }
+
 }
 
 function checkDateAndTime(d, start, end) {
@@ -271,7 +271,7 @@ function showResourceOnTable(data) {
 }
 
 function hideLinks() {
-   
+
 }
 
 
@@ -281,8 +281,8 @@ function hideLinks() {
 function getsubjectOutlineInformation(obj) {
     // alert('hello')
     var Id = obj.id;
-   
-   
+
+
     $.ajax({
         url: "/student/Home/GetSubjectOutlineInformation",
         type: "GET",
@@ -290,11 +290,11 @@ function getsubjectOutlineInformation(obj) {
         success: function (response) {
             let data = response;
             unload();
-            
-           
+
+
             if (data) {
-                 showSubjectOutlineOnTable(data);
-              
+                showSubjectOutlineOnTable(data);
+
             }
 
 
@@ -348,12 +348,12 @@ function showSubjectOutlineOnTable(data) {
 
 function fetchFeeByDate(obj) {
 
-       let newHeading = `Fee Payment Report For Date ${obj.value}`;
+    let newHeading = `Fee Payment Report For Date ${obj.value}`;
     //   alert(newHeading)
-       var heading = document.getElementById('myHeading');
+    var heading = document.getElementById('myHeading');
 
     // Change its text content
-     heading.textContent = newHeading;
+    heading.textContent = newHeading;
     // alert(obj.value)
     let paymentId = obj.id;
     $.ajax({

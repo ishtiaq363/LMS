@@ -13,3 +13,4 @@ D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.dll
 D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\refint\LMS.Models.dll
 D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.pdb
 D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\ref\LMS.Models.dll
+D:\aspnetcore\LMS\LMS.Models\obj\Debug\net8.0\LMS.Models.sourcelink.json

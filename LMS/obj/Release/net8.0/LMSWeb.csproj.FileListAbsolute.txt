@@ -302,3 +302,4 @@ D:\aspnetcore\LMS\LMS\obj\Release\net8.0\LMSWeb.pdb
 D:\aspnetcore\LMS\LMS\obj\Release\net8.0\LMSWeb.genruntimeconfig.cache
 D:\aspnetcore\LMS\LMS\obj\Release\net8.0\ref\LMSWeb.dll
 D:\aspnetcore\LMS\LMS\obj\Release\net8.0\scopedcss\Areas\StudentSide\Views\Shared\_StudentLayout.cshtml.rz.scp.css
+D:\aspnetcore\LMS\LMS\obj\Release\net8.0\LMSWeb.sourcelink.json

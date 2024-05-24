@@ -302,3 +302,5 @@ D:\aspnetcore\LMS\LMS\obj\Debug\net8.0\refint\LMSWeb.dll
 D:\aspnetcore\LMS\LMS\obj\Debug\net8.0\LMSWeb.pdb
 D:\aspnetcore\LMS\LMS\obj\Debug\net8.0\LMSWeb.genruntimeconfig.cache
 D:\aspnetcore\LMS\LMS\obj\Debug\net8.0\ref\LMSWeb.dll
+D:\aspnetcore\LMS\LMS\obj\Debug\net8.0\LMSWeb.sourcelink.json
+D:\aspnetcore\LMS\LMS\bin\Debug\net8.0\appsettings.production.json

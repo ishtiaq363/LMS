@@ -10,3 +10,4 @@ D:\aspnetcore\LMS\LMS.Utility\obj\Debug\net8.0\LMS.Utility.dll
 D:\aspnetcore\LMS\LMS.Utility\obj\Debug\net8.0\refint\LMS.Utility.dll
 D:\aspnetcore\LMS\LMS.Utility\obj\Debug\net8.0\LMS.Utility.pdb
 D:\aspnetcore\LMS\LMS.Utility\obj\Debug\net8.0\ref\LMS.Utility.dll
+D:\aspnetcore\LMS\LMS.Utility\obj\Debug\net8.0\LMS.Utility.sourcelink.json

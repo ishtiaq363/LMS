@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LMSWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+936ee4c2c26008ac430d6717958ea153a9fa9b5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LMSWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LMSWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

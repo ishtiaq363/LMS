@@ -12,13 +12,14 @@ function loadAllSubjectData(obj) {
 }
 function getSubjectResources(obj) {
     var Id = obj.id;
+    var RootUrl = '@Url.Content("~/")';
     $("#myname").text(obj.getAttribute('name'));
     $("#assessmentsubjectname").text(" Assessment of "+ obj.getAttribute('name'));
     $("#outline").text(obj.getAttribute('name') + " Outline");
    // alert(Id)
     //hideLinks();
     $.ajax({
-        url: "/student/Home/GetSubjectLinksInformation",
+        url: RootUrl + "student/Home/GetSubjectLinksInformation",
         type: "GET",
         data: { Id: Id },
         success: function (response) {
@@ -56,11 +57,13 @@ function getSubjectResources(obj) {
 function getPaperInformation(obj) {
    // alert('hello')
     var Id = obj.id;
+    var RootUrl = '@Url.Content("~/")';
     $("#myname").text(obj.getAttribute('name'));
    // alert(Id)
     hideLinks();
     $.ajax({
-        url: "/student/Home/GetPaperInformation",
+       /* url: "@Url.Action("/student/Home/GetPaperInformation"")"*/
+        url: RootUrl + "student/Home/GetPaperInformation",
         type: "GET",
         data: { Id: Id },
         success: function (response) {
@@ -152,6 +155,7 @@ function showAssessmentResourceOnTable(data) {
 
 }
 function submitAssessmentToDB() {
+    var RootUrl = '@Url.Content("~/")';
     let fileId = "file-" + this.id;
     var fileInput = document.getElementById(fileId);
         var file = fileInput.files[0];
@@ -163,7 +167,7 @@ function submitAssessmentToDB() {
             formData.append("file", file);
             formData.append("assessmentScheduleId", assessmentScheduleId);
             formData.append("studentId", studentId);
-            fetch("/student/Home/SubmitAssessment", {
+            fetch(RootUrl + "student/Home/SubmitAssessment", {
                 method: "POST",
                 body: formData
             })
@@ -281,10 +285,10 @@ function hideLinks() {
 function getsubjectOutlineInformation(obj) {
     // alert('hello')
     var Id = obj.id;
-   
+    var RootUrl = '@Url.Content("~/")';
    
     $.ajax({
-        url: "/student/Home/GetSubjectOutlineInformation",
+        url: RootUrl + "student/Home/GetSubjectOutlineInformation",
         type: "GET",
         data: { Id: Id },
         success: function (response) {
@@ -347,7 +351,7 @@ function showSubjectOutlineOnTable(data) {
 }
 
 function fetchFeeByDate(obj) {
-
+    var RootUrl = '@Url.Content("~/")';
        let newHeading = `Fee Payment Report For Date ${obj.value}`;
     //   alert(newHeading)
        var heading = document.getElementById('myHeading');
@@ -357,7 +361,7 @@ function fetchFeeByDate(obj) {
     // alert(obj.value)
     let paymentId = obj.id;
     $.ajax({
-        url: '/Admin/FeePrint/GetStudentFee',
+        url: RootUrl + 'Admin/FeePrint/GetStudentFee',
         type: 'GET',
         data: { paymentDate: obj.value },
         success: function (response) {
